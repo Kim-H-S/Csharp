@@ -1,4 +1,5 @@
 // 테이블에 컬럼과 로우를 넣고 출력한다.
+// foreach를 이용하여 출력한다.
 
 using System;
 using System.Data;
