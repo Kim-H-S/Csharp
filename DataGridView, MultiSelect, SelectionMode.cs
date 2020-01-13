@@ -22,8 +22,6 @@ namespace WindowsFormsApp1
             DataTable Table1 = new DataTable("table1");
             DataColumn Col1 = new DataColumn("Name", typeof(string));
             Table1.Columns.Add(Col1);
-            // 프라이머리 키
-            Table1.PrimaryKey = new DataColumn[] { Col1 };
 
             Col1 = new DataColumn("Age", typeof(int));
             Table1.Columns.Add(Col1);
