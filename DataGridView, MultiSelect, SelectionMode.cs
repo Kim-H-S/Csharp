@@ -51,6 +51,8 @@ namespace WindowsFormsApp1
             // 한 행만 선택
             dataGridView1.MultiSelect = false;
             // DataGridView -> 속성 -> SelectionMode = FullRowSelect
+            // 행에 포함된 셀을 클릭하면 전체 행이 선택된다.
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
     }
 }
