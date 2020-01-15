@@ -21,8 +21,6 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            #region 나우
-
             // 1단계
             // DataTable과 DataColumn 만들기
             //DataTable Table1 = new DataTable("table1");
@@ -72,10 +70,6 @@ namespace WindowsFormsApp1
 
                 Console.WriteLine("이름:{0} 나이:{1:d2} 성별:{2}", PrintRow["Name"], PrintRow["Age"], str);
             }
-
-            #endregion
-
-
         }
 
         /// <summary>
