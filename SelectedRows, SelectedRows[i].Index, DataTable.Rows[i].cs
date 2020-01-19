@@ -119,7 +119,12 @@ namespace WindowsFormsApp1
 
             // 빈 셀 삭제 시도시 예외처리 한다.
         }
-
+        
+        /// <summary>
+        /// '수정 버튼' 클릭 이벤트
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnModify_Click(object sender, EventArgs e)
         {
             // DataGridView.SelectedRows
