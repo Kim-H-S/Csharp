@@ -1,4 +1,4 @@
-// DataTime class
+// DataTime 클래스
 // MSDN
 
 using System;
